@@ -1,0 +1,2916 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/almasaeed2010/AdminLTE#readme"
+
+    >admin-lte (v2.3.11)</a>
+</h1>
+<h4>Introduction ============</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.admin-lte">module admin-lte</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider">
+            function <span class="apidocSignatureSpan">admin-lte.</span>bootstrap_slider
+            <span class="apidocSignatureSpan">(element, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment">
+            function <span class="apidocSignatureSpan">admin-lte.</span>moment
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">admin-lte.</span>bootstrap_slider.prototype</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.admin-lte.bootstrap_slider">module admin-lte.bootstrap_slider</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.bootstrap_slider">
+            function <span class="apidocSignatureSpan">admin-lte.</span>bootstrap_slider
+            <span class="apidocSignatureSpan">(element, options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.admin-lte.bootstrap_slider.prototype">module admin-lte.bootstrap_slider.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._addClass">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_addClass
+            <span class="apidocSignatureSpan">(element, classString)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._adjustPercentageForRangeSliders">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_adjustPercentageForRangeSliders
+            <span class="apidocSignatureSpan">(percentage)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._applyPrecision">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_applyPrecision
+            <span class="apidocSignatureSpan">(val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._applyToFixedAndParseFloat">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_applyToFixedAndParseFloat
+            <span class="apidocSignatureSpan">(num, toFixedInput)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._bindNonQueryEventHandler">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_bindNonQueryEventHandler
+            <span class="apidocSignatureSpan">(evt, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._calculateValue">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_calculateValue
+            <span class="apidocSignatureSpan">(snapToClosestTick)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._cleanUpEventCallbacksMap">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_cleanUpEventCallbacksMap
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._css">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_css
+            <span class="apidocSignatureSpan">(elementRef, styleName, value)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._getNumDigitsAfterDecimalPlace">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_getNumDigitsAfterDecimalPlace
+            <span class="apidocSignatureSpan">(num)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._getPercentage">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_getPercentage
+            <span class="apidocSignatureSpan">(ev)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._hideTooltip">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_hideTooltip
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._init">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_init
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._keydown">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_keydown
+            <span class="apidocSignatureSpan">(handleIdx, ev)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._layout">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_layout
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._mousedown">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_mousedown
+            <span class="apidocSignatureSpan">(ev)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._mousemove">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_mousemove
+            <span class="apidocSignatureSpan">(ev)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._mouseup">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_mouseup
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._offset">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_offset
+            <span class="apidocSignatureSpan">(obj)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._offsetLeft">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_offsetLeft
+            <span class="apidocSignatureSpan">(obj)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._offsetTop">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_offsetTop
+            <span class="apidocSignatureSpan">(obj)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._pauseEvent">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_pauseEvent
+            <span class="apidocSignatureSpan">(ev)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._removeClass">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_removeClass
+            <span class="apidocSignatureSpan">(element, classString)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._removeProperty">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_removeProperty
+            <span class="apidocSignatureSpan">(element, prop)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._removeSliderEventHandlers">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_removeSliderEventHandlers
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._setDataVal">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_setDataVal
+            <span class="apidocSignatureSpan">(val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._setText">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_setText
+            <span class="apidocSignatureSpan">(element, text)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._setTooltipPosition">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_setTooltipPosition
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._showTooltip">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_showTooltip
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._toPercentage">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_toPercentage
+            <span class="apidocSignatureSpan">(value)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._toValue">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_toValue
+            <span class="apidocSignatureSpan">(percentage)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._trigger">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_trigger
+            <span class="apidocSignatureSpan">(evt, val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._triggerFocusOnHandle">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_triggerFocusOnHandle
+            <span class="apidocSignatureSpan">(handleIdx)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._triggerJQueryEvent">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_triggerJQueryEvent
+            <span class="apidocSignatureSpan">(evt, val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._unbindJQueryEventHandlers">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_unbindJQueryEventHandlers
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._unbindNonQueryEventHandler">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_unbindNonQueryEventHandler
+            <span class="apidocSignatureSpan">(evt, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._validateArray">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_validateArray
+            <span class="apidocSignatureSpan">(val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype._validateInputValue">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_validateInputValue
+            <span class="apidocSignatureSpan">(val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype.constructor">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>constructor
+            <span class="apidocSignatureSpan">(element, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype.destroy">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>destroy
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype.disable">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>disable
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype.enable">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>enable
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype.getAttribute">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>getAttribute
+            <span class="apidocSignatureSpan">(attribute)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype.getElement">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>getElement
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype.getValue">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>getValue
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype.isEnabled">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>isEnabled
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype.off">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>off
+            <span class="apidocSignatureSpan">(evt, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype.on">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>on
+            <span class="apidocSignatureSpan">(evt, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype.refresh">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>refresh
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype.relayout">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>relayout
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype.setAttribute">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>setAttribute
+            <span class="apidocSignatureSpan">(attribute, value)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype.setValue">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>setValue
+            <span class="apidocSignatureSpan">(val, triggerSlideEvent, triggerChangeEvent)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.bootstrap_slider.prototype.toggle">
+            function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>toggle
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>defaultOptions</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.admin-lte.moment">module admin-lte.moment</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">admin-lte.moment.</span>suppressDeprecationWarnings</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.moment">
+            function <span class="apidocSignatureSpan">admin-lte.</span>moment
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.ISO_8601">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>ISO_8601
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.createFromInputFallback">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>createFromInputFallback
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.defineLocale">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>defineLocale
+            <span class="apidocSignatureSpan">(name, values)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.duration">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>duration
+            <span class="apidocSignatureSpan">(input, key)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.invalid">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>invalid
+            <span class="apidocSignatureSpan">(flags)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.isDate">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>isDate
+            <span class="apidocSignatureSpan">(input)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.isDuration">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>isDuration
+            <span class="apidocSignatureSpan">(obj)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.isMoment">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>isMoment
+            <span class="apidocSignatureSpan">(obj)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.lang">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>lang
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.langData">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>langData
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.locale">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>locale
+            <span class="apidocSignatureSpan">(key, values)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.localeData">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>localeData
+            <span class="apidocSignatureSpan">(key)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.max">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>max
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.min">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>min
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.months">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>months
+            <span class="apidocSignatureSpan">(format, index)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.monthsShort">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>monthsShort
+            <span class="apidocSignatureSpan">(format, index)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.normalizeUnits">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>normalizeUnits
+            <span class="apidocSignatureSpan">(units)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.parseTwoDigitYear">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>parseTwoDigitYear
+            <span class="apidocSignatureSpan">(input)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.parseZone">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>parseZone
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.relativeTimeThreshold">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>relativeTimeThreshold
+            <span class="apidocSignatureSpan">(threshold, limit)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.unix">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>unix
+            <span class="apidocSignatureSpan">(input)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.updateOffset">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>updateOffset
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.utc">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>utc
+            <span class="apidocSignatureSpan">(input, format, locale, strict)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.weekdays">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>weekdays
+            <span class="apidocSignatureSpan">(format, index)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.weekdaysMin">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>weekdaysMin
+            <span class="apidocSignatureSpan">(format, index)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.admin-lte.moment.weekdaysShort">
+            function <span class="apidocSignatureSpan">admin-lte.moment.</span>weekdaysShort
+            <span class="apidocSignatureSpan">(format, index)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">admin-lte.moment.</span>fn</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">admin-lte.moment.</span>momentProperties</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">admin-lte.moment.</span>defaultFormat</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">admin-lte.moment.</span>version</span>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.admin-lte" id="apidoc.module.admin-lte">module admin-lte</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider" id="apidoc.element.admin-lte.bootstrap_slider">
+        function <span class="apidocSignatureSpan">admin-lte.</span>bootstrap_slider
+        <span class="apidocSignatureSpan">(element, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">bootstrap_slider = function (element, options) {
+			createNewSlider.call(this, element, options);
+			return this;
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment" id="apidoc.element.admin-lte.moment">
+        function <span class="apidocSignatureSpan">admin-lte.</span>moment
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function utils_hooks__hooks() {
+    return hookCallback.apply(null, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.admin-lte.bootstrap_slider" id="apidoc.module.admin-lte.bootstrap_slider">module admin-lte.bootstrap_slider</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.bootstrap_slider" id="apidoc.element.admin-lte.bootstrap_slider.bootstrap_slider">
+        function <span class="apidocSignatureSpan">admin-lte.</span>bootstrap_slider
+        <span class="apidocSignatureSpan">(element, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">bootstrap_slider = function (element, options) {
+			createNewSlider.call(this, element, options);
+			return this;
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.admin-lte.bootstrap_slider.prototype" id="apidoc.module.admin-lte.bootstrap_slider.prototype">module admin-lte.bootstrap_slider.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._addClass" id="apidoc.element.admin-lte.bootstrap_slider.prototype._addClass">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_addClass
+        <span class="apidocSignatureSpan">(element, classString)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_addClass = function (element, classString) {
+				var classes = classString.split(&#x22; &#x22;);
+				var newClasses = element.className;
+
+				for(var i = 0; i &#x3c; classes.length; i++) {
+					var classTag = classes[i];
+					var regex = new RegExp(&#x22;(?:\\s|^)&#x22; + classTag + &#x22;(?:\\s|$)&#x22;);
+					var ifClassExists = regex.test(newClasses);
+
+					if(!ifClassExists) {
+						newClasses += &#x22; &#x22; + classTag;
+					}
+				}
+
+				element.className = newClasses.trim();
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._adjustPercentageForRangeSliders" id="apidoc.element.admin-lte.bootstrap_slider.prototype._adjustPercentageForRangeSliders">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_adjustPercentageForRangeSliders
+        <span class="apidocSignatureSpan">(percentage)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_adjustPercentageForRangeSliders = function (percentage) {
+				if (this.options.range) {
+					var precision = this._getNumDigitsAfterDecimalPlace(percentage);
+					precision = precision ? precision - 1 : 0;
+					var percentageWithAdjustedPrecision = this._applyToFixedAndParseFloat(percentage, precision);
+					if (this._state.dragged === 0 &#x26;&#x26; this._applyToFixedAndParseFloat(this._state.percentage[1], precision) &#x3c; percentageWithAdjustedPrecision
+) {
+						this._state.percentage[0] = this._state.percentage[1];
+						this._state.dragged = 1;
+					} else if (this._state.dragged === 1 &#x26;&#x26; this._applyToFixedAndParseFloat(this._state.percentage[0], precision) &#x3e; percentageWithAdjustedPrecision
+) {
+						this._state.percentage[1] = this._state.percentage[0];
+						this._state.dragged = 0;
+					}
+				}
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._applyPrecision" id="apidoc.element.admin-lte.bootstrap_slider.prototype._applyPrecision">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_applyPrecision
+        <span class="apidocSignatureSpan">(val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_applyPrecision = function (val) {
+				var precision = this.options.precision || this._getNumDigitsAfterDecimalPlace(this.options.step);
+				return this._applyToFixedAndParseFloat(val, precision);
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._applyToFixedAndParseFloat" id="apidoc.element.admin-lte.bootstrap_slider.prototype._applyToFixedAndParseFloat">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_applyToFixedAndParseFloat
+        <span class="apidocSignatureSpan">(num, toFixedInput)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_applyToFixedAndParseFloat = function (num, toFixedInput) {
+				var truncatedNum = num.toFixed(toFixedInput);
+				return parseFloat(truncatedNum);
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._bindNonQueryEventHandler" id="apidoc.element.admin-lte.bootstrap_slider.prototype._bindNonQueryEventHandler">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_bindNonQueryEventHandler
+        <span class="apidocSignatureSpan">(evt, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_bindNonQueryEventHandler = function (evt, callback) {
+				if(this.eventToCallbackMap[evt] === undefined) {
+					this.eventToCallbackMap[evt] = [];
+				}
+				this.eventToCallbackMap[evt].push(callback);
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._calculateValue" id="apidoc.element.admin-lte.bootstrap_slider.prototype._calculateValue">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_calculateValue
+        <span class="apidocSignatureSpan">(snapToClosestTick)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_calculateValue = function (snapToClosestTick) {
+				var val;
+				if (this.options.range) {
+					val = [this.options.min,this.options.max];
+			        if (this._state.percentage[0] !== 0){
+			            val[0] = this._toValue(this._state.percentage[0]);
+			            val[0] = this._applyPrecision(val[0]);
+			        }
+			        if (this._state.percentage[1] !== 100){
+			            val[1] = this._toValue(this._state.percentage[1]);
+			            val[1] = this._applyPrecision(val[1]);
+			        }
+				} else {
+		            val = this._toValue(this._state.percentage[0]);
+					val = parseFloat(val);
+					val = this._applyPrecision(val);
+				}
+
+				if (snapToClosestTick) {
+					var min = [val, Infinity];
+					for (var i = 0; i &#x3c; this.options.ticks.length; i++) {
+						var diff = Math.abs(this.options.ticks[i] - val);
+						if (diff &#x3c;= min[1]) {
+							min = [this.options.ticks[i], diff];
+						}
+					}
+					if (min[1] &#x3c;= this.options.ticks_snap_bounds) {
+						return min[0];
+					}
+				}
+
+				return val;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._cleanUpEventCallbacksMap" id="apidoc.element.admin-lte.bootstrap_slider.prototype._cleanUpEventCallbacksMap">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_cleanUpEventCallbacksMap
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_cleanUpEventCallbacksMap = function () {
+				var eventNames = Object.keys(this.eventToCallbackMap);
+				for(var i = 0; i &#x3c; eventNames.length; i++) {
+					var eventName = eventNames[i];
+					this.eventToCallbackMap[eventName] = null;
+				}
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._css" id="apidoc.element.admin-lte.bootstrap_slider.prototype._css">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_css
+        <span class="apidocSignatureSpan">(elementRef, styleName, value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_css = function (elementRef, styleName, value) {
+                if ($) {
+                    $.style(elementRef, styleName, value);
+                } else {
+                    var style = styleName.replace(/^-ms-/, &#x22;ms-&#x22;).replace(/-([\da-z])/gi, function (all, letter) {
+                        return letter.toUpperCase();
+                    });
+                    elementRef.style[style] = value;
+                }
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._getNumDigitsAfterDecimalPlace" id="apidoc.element.admin-lte.bootstrap_slider.prototype._getNumDigitsAfterDecimalPlace">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_getNumDigitsAfterDecimalPlace
+        <span class="apidocSignatureSpan">(num)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_getNumDigitsAfterDecimalPlace = function (num) {
+				var match = (&#x27;&#x27;+num).match(/(?:\.(\d+))?(?:[eE]([+-]?\d+))?$/);
+				if (!match) { return 0; }
+				return Math.max(0, (match[1] ? match[1].length : 0) - (match[2] ? +match[2] : 0));
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._getPercentage" id="apidoc.element.admin-lte.bootstrap_slider.prototype._getPercentage">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_getPercentage
+        <span class="apidocSignatureSpan">(ev)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_getPercentage = function (ev) {
+				if (this.touchCapable &#x26;&#x26; (ev.type === &#x27;touchstart&#x27; || ev.type === &#x27;touchmove&#x27;)) {
+					ev = ev.touches[0];
+				}
+
+				var eventPosition = ev[this.mousePos];
+				var sliderOffset = this._state.offset[this.stylePos];
+				var distanceToSlide = eventPosition - sliderOffset;
+				// Calculate what percent of the length the slider handle has slid
+				var percentage = (distanceToSlide / this._state.size) * 100;
+				percentage = Math.round(percentage / this._state.percentage[2]) * this._state.percentage[2];
+				if (this.options.reversed) {
+					percentage = 100 - percentage;
+				}
+
+				// Make sure the percent is within the bounds of the slider.
+				// 0% corresponds to the &#x27;min&#x27; value of the slide
+				// 100% corresponds to the &#x27;max&#x27; value of the slide
+				return Math.max(0, Math.min(100, percentage));
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._hideTooltip" id="apidoc.element.admin-lte.bootstrap_slider.prototype._hideTooltip">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_hideTooltip
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_hideTooltip = function () {
+				if (this._state.inDrag === false &#x26;&#x26; this.alwaysShowTooltip !== true) {
+					this._removeClass(this.tooltip, &#x27;in&#x27;);
+					this._removeClass(this.tooltip_min, &#x27;in&#x27;);
+					this._removeClass(this.tooltip_max, &#x27;in&#x27;);
+				}
+				this._state.over = false;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._init" id="apidoc.element.admin-lte.bootstrap_slider.prototype._init">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_init
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_init = function () {}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._keydown" id="apidoc.element.admin-lte.bootstrap_slider.prototype._keydown">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_keydown
+        <span class="apidocSignatureSpan">(handleIdx, ev)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_keydown = function (handleIdx, ev) {
+				if(!this._state.enabled) {
+					return false;
+				}
+
+				var dir;
+				switch (ev.keyCode) {
+					case 37: // left
+					case 40: // down
+						dir = -1;
+						break;
+					case 39: // right
+					case 38: // up
+						dir = 1;
+						break;
+				}
+				if (!dir) {
+					return;
+				}
+
+				// use natural arrow keys instead of from min to max
+				if (this.options.natural_arrow_keys) {
+					var ifVerticalAndNotReversed = (this.options.orientation === &#x27;vertical&#x27; &#x26;&#x26; !this.options.reversed);
+					var ifHorizontalAndReversed = (this.options.orientation === &#x27;horizontal&#x27; &#x26;&#x26; this.options.reversed);
+
+					if (ifVerticalAndNotReversed || ifHorizontalAndReversed) {
+						dir = -dir;
+					}
+				}
+
+				var val = this._state.value[handleIdx] + dir * this.options.step;
+				if (this.options.range) {
+					val = [ (!handleIdx) ? val : this._state.value[0],
+						    ( handleIdx) ? val : this._state.value[1]];
+				}
+
+				this._trigger(&#x27;slideStart&#x27;, val);
+				this._setDataVal(val);
+				this.setValue(val, true, true);
+
+				this._setDataVal(val);
+				this._trigger(&#x27;slideStop&#x27;, val);
+				this._layout();
+
+				this._pauseEvent(ev);
+
+				return false;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._layout" id="apidoc.element.admin-lte.bootstrap_slider.prototype._layout">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_layout
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_layout = function () {
+				var positionPercentages;
+
+				if(this.options.reversed) {
+					positionPercentages = [ 100 - this._state.percentage[0], this.options.range ? 100 - this._state.percentage[1] : this._state
+.percentage[1]];
+				}
+				else {
+					positionPercentages = [ this._state.percentage[0], this._state.percentage[1] ];
+				}
+
+				this.handle1.style[this.stylePos] = positionPercentages[0]+&#x27;%&#x27;;
+				this.handle1.setAttribute(&#x27;aria-valuenow&#x27;, this._state.value[0]);
+
+				this.handle2.style[this.stylePos] = positionPercentages[1]+&#x27;%&#x27;;
+				this.handle2.setAttribute(&#x27;aria-valuenow&#x27;, this._state.value[1]);
+
+				<span class="apidocCodeCommentSpan">/* Position ticks and labels */
+</span>				if (Array.isArray(this.options.ticks) &#x26;&#x26; this.options.ticks.length &#x3e; 0) {
+
+					var styleSize = this.options.orientation === &#x27;vertical&#x27; ? &#x27;height&#x27; : &#x27;width&#x27;;
+					var styleMargin = this.options.orientation === &#x27;vertical&#x27; ? &#x27;marginTop&#x27; : &#x27;marginLeft&#x27;;
+					var labelSize = this._state.size / (this.options.ticks.length - 1);
+
+					if (this.tickLabelContainer) {
+						var extraMargin = 0;
+						if (this.options.ticks_positions.length === 0) {
+							if (this.options.orientation !== &#x27;vertical&#x27;) {
+								this.tickLabelContainer.style[styleMargin] = -labelSize/2 + &#x27;px&#x27;;
+							}
+
+							extraMargin = this.tickLabelContainer.offsetHeight;
+						} else {
+							/* Chidren are position absolute, calculate height by finding the max offsetHeight of a child */
+							for (i = 0 ; i &#x3c; this.tickLabelContainer.childNodes.length; i++) {
+								if (this.tickLabelContainer.childNodes[i].offsetHeight &#x3e; extraMargin) {
+									extraMargin = this.tickLabelContainer.childNodes[i].offsetHeight;
+								}
+							}
+						}
+						if (this.options.orientation === &#x27;horizontal&#x27;) {
+							this.sliderElem.style.marginBottom = extraMargin + &#x27;px&#x27;;
+						}
+					}
+					for (var i = 0; i &#x3c; this.options.ticks.length; i++) {
+
+						var percentage = this.options.ticks_positions[i] || this._toPercentage(this.options.ticks[i]);
+
+						if (this.options.reversed) {
+							percentage = 100 - percentage;
+						}
+
+						this.ticks[i].style[this.stylePos] = percentage + &#x27;%&#x27;;
+
+						/* Set class labels to denote whether ticks are in the selection */
+						this._removeClass(this.ticks[i], &#x27;in-selection&#x27;);
+						if (!this.options.range) {
+							if (this.options.selection === &#x27;after&#x27; &#x26;&#x26; percentage &#x3e;= positionPercentages[0]){
+								this._addClass(this.ticks[i], &#x27;in-selection&#x27;);
+							} else if (this.options.selection === &#x27;before&#x27; &#x26;&#x26; percentage &#x3c;= positionPercentages[0]) {
+								this._addClass(this.ticks[i], &#x27;in-selection&#x27;);
+							}
+						} else if (percentage &#x3e;= positionPercentages[0] &#x26;&#x26; percentage &#x3c;= positionPercentages[1]) {
+							this._addClass(this.ticks[i], &#x27;in-selection&#x27;);
+						}
+
+						if (this.tickLabels[i]) {
+							this.tickLabels[i].style[styleSize] = labelSize + &#x27;px&#x27;;
+
+							if (this.options.orientation !== &#x27;vertical&#x27; &#x26;&#x26; this.options.ticks_positions[i] !== undefined) {
+								this.tickLabels[i].style.position = &#x27;absolute&#x27;;
+								this.tickLabels[i].style[this.stylePos] = percentage + &#x27;%&#x27;;
+								this.tickLabels[i].style[styleMargin] = -labelSize/2 + &#x27;px&#x27;;
+							} else if (this.options.orientation === &#x27;vertical&#x27;) {
+								this.tickLabels[i].style[&#x27;marginLeft&#x27;] =  this.sliderElem.offsetWidth + &#x27;px&#x27;;
+								this.tickLabelContainer.style[&#x27;marginTop&#x27;] = this.sliderElem.offsetWidth / 2 * -1 + &#x27;px&#x27;;
+							}
+						}
+					}
+				}
+
+				var formattedTooltipVal;
+
+				if (this.options.range) {
+					formattedTooltipVal = this.options.formatter(this._state.value);
+					this._setText(this.tooltipInner, formattedTooltipVal);
+					this.tooltip.style[this.stylePos] = (positionPercentages[1] + positionPercentages[0])/2 + &#x27;%&#x27;;
+
+					if (this.options.orientation === &#x27;vertical&#x27;) {
+						this._css(this.tooltip, &#x27;margin-top&#x27;, -this.tooltip.offsetHeight / 2 + &#x27;px&#x27;);
+					} else {
+						this._css(this.tooltip, &#x27;margin-left&#x27;, -this.tooltip.offsetWidth / 2 + &#x27;px&#x27;);
+					}
+
+					if (this.options.orientation === &#x27;vertical&#x27;) {
+						this._css(this.tooltip, &#x27;margin-top&#x27;, -this.tooltip.offsetHeight / 2 + &#x27;px&#x27;);
+					} else {
+						this._cs ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._mousedown" id="apidoc.element.admin-lte.bootstrap_slider.prototype._mousedown">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_mousedown
+        <span class="apidocSignatureSpan">(ev)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_mousedown = function (ev) {
+				if(!this._state.enabled) {
+					return false;
+				}
+
+				this._state.offset = this._offset(this.sliderElem);
+				this._state.size = this.sliderElem[this.sizePos];
+
+				var percentage = this._getPercentage(ev);
+
+				if (this.options.range) {
+					var diff1 = Math.abs(this._state.percentage[0] - percentage);
+					var diff2 = Math.abs(this._state.percentage[1] - percentage);
+					this._state.dragged = (diff1 &#x3c; diff2) ? 0 : 1;
+				} else {
+					this._state.dragged = 0;
+				}
+
+				this._state.percentage[this._state.dragged] = percentage;
+				this._layout();
+
+				if (this.touchCapable) {
+					document.removeEventListener(&#x22;touchmove&#x22;, this.mousemove, false);
+					document.removeEventListener(&#x22;touchend&#x22;, this.mouseup, false);
+				}
+
+				if(this.mousemove){
+					document.removeEventListener(&#x22;mousemove&#x22;, this.mousemove, false);
+				}
+				if(this.mouseup){
+					document.removeEventListener(&#x22;mouseup&#x22;, this.mouseup, false);
+				}
+
+				this.mousemove = this._mousemove.bind(this);
+				this.mouseup = this._mouseup.bind(this);
+
+				if (this.touchCapable) {
+					// Touch: Bind touch events:
+					document.addEventListener(&#x22;touchmove&#x22;, this.mousemove, false);
+					document.addEventListener(&#x22;touchend&#x22;, this.mouseup, false);
+				}
+				// Bind mouse events:
+				document.addEventListener(&#x22;mousemove&#x22;, this.mousemove, false);
+				document.addEventListener(&#x22;mouseup&#x22;, this.mouseup, false);
+
+				this._state.inDrag = true;
+				var newValue = this._calculateValue();
+
+				this._trigger(&#x27;slideStart&#x27;, newValue);
+
+				this._setDataVal(newValue);
+				this.setValue(newValue, false, true);
+
+				this._pauseEvent(ev);
+
+				if (this.options.focus) {
+					this._triggerFocusOnHandle(this._state.dragged);
+				}
+
+				return true;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._mousemove" id="apidoc.element.admin-lte.bootstrap_slider.prototype._mousemove">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_mousemove
+        <span class="apidocSignatureSpan">(ev)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_mousemove = function (ev) {
+				if(!this._state.enabled) {
+					return false;
+				}
+
+				var percentage = this._getPercentage(ev);
+				this._adjustPercentageForRangeSliders(percentage);
+				this._state.percentage[this._state.dragged] = percentage;
+				this._layout();
+
+				var val = this._calculateValue(true);
+				this.setValue(val, true, true);
+
+				return false;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._mouseup" id="apidoc.element.admin-lte.bootstrap_slider.prototype._mouseup">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_mouseup
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_mouseup = function () {
+				if(!this._state.enabled) {
+					return false;
+				}
+				if (this.touchCapable) {
+					// Touch: Unbind touch event handlers:
+					document.removeEventListener(&#x22;touchmove&#x22;, this.mousemove, false);
+					document.removeEventListener(&#x22;touchend&#x22;, this.mouseup, false);
+				}
+                // Unbind mouse event handlers:
+                document.removeEventListener(&#x22;mousemove&#x22;, this.mousemove, false);
+                document.removeEventListener(&#x22;mouseup&#x22;, this.mouseup, false);
+
+				this._state.inDrag = false;
+				if (this._state.over === false) {
+					this._hideTooltip();
+				}
+				var val = this._calculateValue(true);
+
+				this._layout();
+				this._setDataVal(val);
+				this._trigger(&#x27;slideStop&#x27;, val);
+
+				return false;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._offset" id="apidoc.element.admin-lte.bootstrap_slider.prototype._offset">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_offset
+        <span class="apidocSignatureSpan">(obj)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_offset = function (obj) {
+				return {
+					left: this._offsetLeft(obj),
+					top: this._offsetTop(obj)
+				};
+		    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._offsetLeft" id="apidoc.element.admin-lte.bootstrap_slider.prototype._offsetLeft">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_offsetLeft
+        <span class="apidocSignatureSpan">(obj)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_offsetLeft = function (obj){
+				return obj.getBoundingClientRect().left;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._offsetTop" id="apidoc.element.admin-lte.bootstrap_slider.prototype._offsetTop">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_offsetTop
+        <span class="apidocSignatureSpan">(obj)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_offsetTop = function (obj){
+				var offsetTop = obj.offsetTop;
+				while((obj = obj.offsetParent) &#x26;&#x26; !isNaN(obj.offsetTop)){
+					offsetTop += obj.offsetTop;
+				}
+				return offsetTop;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._pauseEvent" id="apidoc.element.admin-lte.bootstrap_slider.prototype._pauseEvent">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_pauseEvent
+        <span class="apidocSignatureSpan">(ev)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_pauseEvent = function (ev) {
+				if(ev.stopPropagation) {
+					ev.stopPropagation();
+				}
+			    if(ev.preventDefault) {
+			    	ev.preventDefault();
+			    }
+			    ev.cancelBubble=true;
+			    ev.returnValue=false;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._removeClass" id="apidoc.element.admin-lte.bootstrap_slider.prototype._removeClass">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_removeClass
+        <span class="apidocSignatureSpan">(element, classString)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_removeClass = function (element, classString) {
+				var classes = classString.split(&#x22; &#x22;);
+				var newClasses = element.className;
+
+				for(var i = 0; i &#x3c; classes.length; i++) {
+					var classTag = classes[i];
+					var regex = new RegExp(&#x22;(?:\\s|^)&#x22; + classTag + &#x22;(?:\\s|$)&#x22;);
+					newClasses = newClasses.replace(regex, &#x22; &#x22;);
+				}
+
+				element.className = newClasses.trim();
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._removeProperty" id="apidoc.element.admin-lte.bootstrap_slider.prototype._removeProperty">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_removeProperty
+        <span class="apidocSignatureSpan">(element, prop)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_removeProperty = function (element, prop) {
+				if (element.style.removeProperty) {
+				    element.style.removeProperty(prop);
+				} else {
+				    element.style.removeAttribute(prop);
+				}
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._removeSliderEventHandlers" id="apidoc.element.admin-lte.bootstrap_slider.prototype._removeSliderEventHandlers">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_removeSliderEventHandlers
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_removeSliderEventHandlers = function () {
+				// Remove keydown event listeners
+				this.handle1.removeEventListener(&#x22;keydown&#x22;, this.handle1Keydown, false);
+				this.handle2.removeEventListener(&#x22;keydown&#x22;, this.handle2Keydown, false);
+
+				if (this.showTooltip) {
+					this.handle1.removeEventListener(&#x22;focus&#x22;, this.showTooltip, false);
+					this.handle2.removeEventListener(&#x22;focus&#x22;, this.showTooltip, false);
+				}
+				if (this.hideTooltip) {
+					this.handle1.removeEventListener(&#x22;blur&#x22;, this.hideTooltip, false);
+					this.handle2.removeEventListener(&#x22;blur&#x22;, this.hideTooltip, false);
+				}
+
+				// Remove event listeners from sliderElem
+				if (this.showTooltip) {
+					this.sliderElem.removeEventListener(&#x22;mouseenter&#x22;, this.showTooltip, false);
+				}
+				if (this.hideTooltip) {
+					this.sliderElem.removeEventListener(&#x22;mouseleave&#x22;, this.hideTooltip, false);
+				}
+				this.sliderElem.removeEventListener(&#x22;touchstart&#x22;, this.mousedown, false);
+				this.sliderElem.removeEventListener(&#x22;mousedown&#x22;, this.mousedown, false);
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._setDataVal" id="apidoc.element.admin-lte.bootstrap_slider.prototype._setDataVal">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_setDataVal
+        <span class="apidocSignatureSpan">(val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_setDataVal = function (val) {
+				this.element.setAttribute(&#x27;data-value&#x27;, val);
+				this.element.setAttribute(&#x27;value&#x27;, val);
+        this.element.value = val;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._setText" id="apidoc.element.admin-lte.bootstrap_slider.prototype._setText">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_setText
+        <span class="apidocSignatureSpan">(element, text)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_setText = function (element, text) {
+				if(typeof element.innerText !== &#x22;undefined&#x22;) {
+			 		element.innerText = text;
+			 	} else if(typeof element.textContent !== &#x22;undefined&#x22;) {
+			 		element.textContent = text;
+			 	}
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._setTooltipPosition" id="apidoc.element.admin-lte.bootstrap_slider.prototype._setTooltipPosition">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_setTooltipPosition
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_setTooltipPosition = function (){
+				var tooltips = [this.tooltip, this.tooltip_min, this.tooltip_max];
+				if (this.options.orientation === &#x27;vertical&#x27;){
+					var tooltipPos = this.options.tooltip_position || &#x27;right&#x27;;
+					var oppositeSide = (tooltipPos === &#x27;left&#x27;) ? &#x27;right&#x27; : &#x27;left&#x27;;
+					tooltips.forEach(function(tooltip){
+						this._addClass(tooltip, tooltipPos);
+						tooltip.style[oppositeSide] = &#x27;100%&#x27;;
+					}.bind(this));
+				} else if(this.options.tooltip_position === &#x27;bottom&#x27;) {
+					tooltips.forEach(function(tooltip){
+						this._addClass(tooltip, &#x27;bottom&#x27;);
+						tooltip.style.top = 22 + &#x27;px&#x27;;
+					}.bind(this));
+				} else {
+					tooltips.forEach(function(tooltip){
+						this._addClass(tooltip, &#x27;top&#x27;);
+						tooltip.style.top = -this.tooltip.outerHeight - 14 + &#x27;px&#x27;;
+					}.bind(this));
+				}
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._showTooltip" id="apidoc.element.admin-lte.bootstrap_slider.prototype._showTooltip">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_showTooltip
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_showTooltip = function () {
+				if (this.options.tooltip_split === false ){
+        	this._addClass(this.tooltip, &#x27;in&#x27;);
+        	this.tooltip_min.style.display = &#x27;none&#x27;;
+        	this.tooltip_max.style.display = &#x27;none&#x27;;
+		    } else {
+          this._addClass(this.tooltip_min, &#x27;in&#x27;);
+          this._addClass(this.tooltip_max, &#x27;in&#x27;);
+          this.tooltip.style.display = &#x27;none&#x27;;
+		    }
+				this._state.over = true;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._toPercentage" id="apidoc.element.admin-lte.bootstrap_slider.prototype._toPercentage">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_toPercentage
+        <span class="apidocSignatureSpan">(value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_toPercentage = function (value) {
+				return this.options.scale.toPercentage.apply(this, [value]);
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._toValue" id="apidoc.element.admin-lte.bootstrap_slider.prototype._toValue">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_toValue
+        <span class="apidocSignatureSpan">(percentage)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_toValue = function (percentage) {
+				return this.options.scale.toValue.apply(this, [percentage]);
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._trigger" id="apidoc.element.admin-lte.bootstrap_slider.prototype._trigger">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_trigger
+        <span class="apidocSignatureSpan">(evt, val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_trigger = function (evt, val) {
+				val = (val || val === 0) ? val : undefined;
+
+				var callbackFnArray = this.eventToCallbackMap[evt];
+				if(callbackFnArray &#x26;&#x26; callbackFnArray.length) {
+					for(var i = 0; i &#x3c; callbackFnArray.length; i++) {
+						var callbackFn = callbackFnArray[i];
+						callbackFn(val);
+					}
+				}
+
+				<span class="apidocCodeCommentSpan">/* If JQuery exists, trigger JQuery events */
+</span>				if($) {
+					this._triggerJQueryEvent(evt, val);
+				}
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._triggerFocusOnHandle" id="apidoc.element.admin-lte.bootstrap_slider.prototype._triggerFocusOnHandle">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_triggerFocusOnHandle
+        <span class="apidocSignatureSpan">(handleIdx)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_triggerFocusOnHandle = function (handleIdx) {
+				if(handleIdx === 0) {
+					this.handle1.focus();
+				}
+				if(handleIdx === 1) {
+					this.handle2.focus();
+				}
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._triggerJQueryEvent" id="apidoc.element.admin-lte.bootstrap_slider.prototype._triggerJQueryEvent">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_triggerJQueryEvent
+        <span class="apidocSignatureSpan">(evt, val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_triggerJQueryEvent = function (evt, val) {
+				var eventData = {
+					type: evt,
+					value: val
+				};
+				this.$element.trigger(eventData);
+				this.$sliderElem.trigger(eventData);
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._unbindJQueryEventHandlers" id="apidoc.element.admin-lte.bootstrap_slider.prototype._unbindJQueryEventHandlers">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_unbindJQueryEventHandlers
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_unbindJQueryEventHandlers = function () {
+				this.$element.off();
+				this.$sliderElem.off();
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._unbindNonQueryEventHandler" id="apidoc.element.admin-lte.bootstrap_slider.prototype._unbindNonQueryEventHandler">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_unbindNonQueryEventHandler
+        <span class="apidocSignatureSpan">(evt, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_unbindNonQueryEventHandler = function (evt, callback) {
+    var callbacks = this.eventToCallbackMap[evt];
+    if(callbacks !== undefined) {
+        for (var i = 0; i &#x3c; callbacks.length; i++) {
+            if (callbacks[i] === callback) {
+                callbacks.splice(i, 1);
+                break;
+            }
+        }
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._validateArray" id="apidoc.element.admin-lte.bootstrap_slider.prototype._validateArray">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_validateArray
+        <span class="apidocSignatureSpan">(val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_validateArray = function (val) {
+				for(var i = 0; i &#x3c; val.length; i++) {
+					var input =  val[i];
+					if (typeof input !== &#x27;number&#x27;) { throw new Error( ErrorMsgs.formatInvalidInputErrorMsg(input) ); }
+				}
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype._validateInputValue" id="apidoc.element.admin-lte.bootstrap_slider.prototype._validateInputValue">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>_validateInputValue
+        <span class="apidocSignatureSpan">(val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_validateInputValue = function (val) {
+				if (typeof val === &#x27;number&#x27;) {
+					return val;
+				} else if (Array.isArray(val)) {
+					this._validateArray(val);
+					return val;
+				} else {
+					throw new Error( ErrorMsgs.formatInvalidInputErrorMsg(val) );
+				}
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype.constructor" id="apidoc.element.admin-lte.bootstrap_slider.prototype.constructor">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>constructor
+        <span class="apidocSignatureSpan">(element, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">constructor = function (element, options) {
+			createNewSlider.call(this, element, options);
+			return this;
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  }
+
+  Tooltip.prototype.enter = function (obj) {
+var self = obj instanceof this.constructor ?
+  obj : $(obj.currentTarget).data(&#x27;bs.&#x27; + this.type)
+
+if (!self) {
+  self = new this.<span class="apidocCodeKeywordSpan">constructor</span>(obj.currentTarget, this.getDelegateOptions())
+  $(obj.currentTarget).data(&#x27;bs.&#x27; + this.type, self)
+}
+
+if (obj instanceof $.Event) {
+  self.inState[obj.type == &#x27;focusin&#x27; ? &#x27;focus&#x27; : &#x27;hover&#x27;] = true
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype.destroy" id="apidoc.element.admin-lte.bootstrap_slider.prototype.destroy">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>destroy
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">destroy = function (){
+				// Remove event handlers on slider elements
+				this._removeSliderEventHandlers();
+
+				// Remove the slider from the DOM
+				this.sliderElem.parentNode.removeChild(this.sliderElem);
+				<span class="apidocCodeCommentSpan">/* Show original &#x3c;input&#x3e; element */
+</span>				this.element.style.display = &#x22;&#x22;;
+
+				// Clear out custom event bindings
+				this._cleanUpEventCallbacksMap();
+
+				// Remove data values
+				this.element.removeAttribute(&#x22;data&#x22;);
+
+				// Remove JQuery handlers/data
+				if($) {
+					this._unbindJQueryEventHandlers();
+					this.$element.removeData(&#x27;slider&#x27;);
+				}
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype.disable" id="apidoc.element.admin-lte.bootstrap_slider.prototype.disable">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>disable
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">disable = function () {
+				this._state.enabled = false;
+				this.handle1.removeAttribute(&#x22;tabindex&#x22;);
+				this.handle2.removeAttribute(&#x22;tabindex&#x22;);
+				this._addClass(this.sliderElem, &#x27;slider-disabled&#x27;);
+				this._trigger(&#x27;slideDisabled&#x27;);
+
+				return this;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype.enable" id="apidoc.element.admin-lte.bootstrap_slider.prototype.enable">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>enable
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">enable = function () {
+				this._state.enabled = true;
+				this.handle1.setAttribute(&#x22;tabindex&#x22;, 0);
+				this.handle2.setAttribute(&#x22;tabindex&#x22;, 0);
+				this._removeClass(this.sliderElem, &#x27;slider-disabled&#x27;);
+				this._trigger(&#x27;slideEnabled&#x27;);
+
+				return this;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype.getAttribute" id="apidoc.element.admin-lte.bootstrap_slider.prototype.getAttribute">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>getAttribute
+        <span class="apidocSignatureSpan">(attribute)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getAttribute = function (attribute) {
+				if(attribute) {
+					return this.options[attribute];
+				} else {
+					return this.options;
+				}
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype.getElement" id="apidoc.element.admin-lte.bootstrap_slider.prototype.getElement">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>getElement
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getElement = function () {
+				return this.sliderElem;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype.getValue" id="apidoc.element.admin-lte.bootstrap_slider.prototype.getValue">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>getValue
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getValue = function () {
+				if (this.options.range) {
+					return this._state.value;
+				}
+				else {
+					return this._state.value[0];
+				}
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype.isEnabled" id="apidoc.element.admin-lte.bootstrap_slider.prototype.isEnabled">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>isEnabled
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isEnabled = function () {
+				return this._state.enabled;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype.off" id="apidoc.element.admin-lte.bootstrap_slider.prototype.off">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>off
+        <span class="apidocSignatureSpan">(evt, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">off = function (evt, callback) {
+    if($) {
+        this.$element.off(evt, callback);
+        this.$sliderElem.off(evt, callback);
+    } else {
+        this._unbindNonQueryEventHandler(evt, callback);
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+if (!this.isShown || e.isDefaultPrevented()) return
+
+this.isShown = false
+
+this.escape()
+this.resize()
+
+$(document).<span class="apidocCodeKeywordSpan">off</span>(&#x27;focusin.bs.modal&#x27;)
+
+this.$element
+  .removeClass(&#x27;in&#x27;)
+  .off(&#x27;click.dismiss.bs.modal&#x27;)
+  .off(&#x27;mouseup.dismiss.bs.modal&#x27;)
+
+this.$dialog.off(&#x27;mousedown.dismiss.bs.modal&#x27;)
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype.on" id="apidoc.element.admin-lte.bootstrap_slider.prototype.on">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>on
+        <span class="apidocSignatureSpan">(evt, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">on = function (evt, callback) {
+				this._bindNonQueryEventHandler(evt, callback);
+				return this;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  &#x27;background-color&#x27;: &#x27;#222d32&#x27;,
+  cursor: &#x27;pointer&#x27;,
+  &#x27;border-radius&#x27;: &#x27;5px&#x27;,
+  &#x27;z-index&#x27;: &#x27;99999&#x27;,
+  opacity: &#x27;.7&#x27;,
+  &#x27;display&#x27;: &#x27;none&#x27;
+});
+slideToTop.<span class="apidocCodeKeywordSpan">on</span>(&#x27;mouseenter&#x27;, function () {
+  $(this).css(&#x27;opacity&#x27;, &#x27;1&#x27;);
+});
+slideToTop.on(&#x27;mouseout&#x27;, function () {
+  $(this).css(&#x27;opacity&#x27;, &#x27;.7&#x27;);
+});
+$(&#x27;.wrapper&#x27;).append(slideToTop);
+$(window).scroll(function () {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype.refresh" id="apidoc.element.admin-lte.bootstrap_slider.prototype.refresh">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>refresh
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">refresh = function () {
+				this._removeSliderEventHandlers();
+				createNewSlider.call(this, this.element, this.options);
+				if($) {
+					// Bind new instance of slider to the element
+					$.data(this.element, &#x27;slider&#x27;, this);
+				}
+				return this;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  this.selector       = (this.options.target || &#x27;&#x27;) + &#x27; .nav li &#x3e; a&#x27;
+  this.offsets        = []
+  this.targets        = []
+  this.activeTarget   = null
+  this.scrollHeight   = 0
+
+  this.$scrollElement.on(&#x27;scroll.bs.scrollspy&#x27;, $.proxy(this.process, this))
+  this.<span class="apidocCodeKeywordSpan">refresh</span>()
+  this.process()
+}
+
+ScrollSpy.VERSION  = &#x27;3.3.7&#x27;
+
+ScrollSpy.DEFAULTS = {
+  offset: 10
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype.relayout" id="apidoc.element.admin-lte.bootstrap_slider.prototype.relayout">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>relayout
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">relayout = function () {
+				this._layout();
+				return this;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype.setAttribute" id="apidoc.element.admin-lte.bootstrap_slider.prototype.setAttribute">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>setAttribute
+        <span class="apidocSignatureSpan">(attribute, value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">setAttribute = function (attribute, value) {
+				this.options[attribute] = value;
+				return this;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype.setValue" id="apidoc.element.admin-lte.bootstrap_slider.prototype.setValue">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>setValue
+        <span class="apidocSignatureSpan">(val, triggerSlideEvent, triggerChangeEvent)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">setValue = function (val, triggerSlideEvent, triggerChangeEvent) {
+				if (!val) {
+					val = 0;
+				}
+				var oldValue = this.getValue();
+				this._state.value = this._validateInputValue(val);
+				var applyPrecision = this._applyPrecision.bind(this);
+
+				if (this.options.range) {
+					this._state.value[0] = applyPrecision(this._state.value[0]);
+					this._state.value[1] = applyPrecision(this._state.value[1]);
+
+					this._state.value[0] = Math.max(this.options.min, Math.min(this.options.max, this._state.value[0]));
+					this._state.value[1] = Math.max(this.options.min, Math.min(this.options.max, this._state.value[1]));
+				}
+				else {
+					this._state.value = applyPrecision(this._state.value);
+					this._state.value = [ Math.max(this.options.min, Math.min(this.options.max, this._state.value))];
+					this._addClass(this.handle2, &#x27;hide&#x27;);
+					if (this.options.selection === &#x27;after&#x27;) {
+						this._state.value[1] = this.options.max;
+					} else {
+						this._state.value[1] = this.options.min;
+					}
+				}
+
+				if (this.options.max &#x3e; this.options.min) {
+					this._state.percentage = [
+						this._toPercentage(this._state.value[0]),
+						this._toPercentage(this._state.value[1]),
+						this.options.step * 100 / (this.options.max - this.options.min)
+					];
+				} else {
+					this._state.percentage = [0, 0, 100];
+				}
+
+				this._layout();
+				var newValue = this.options.range ? this._state.value : this._state.value[0];
+
+				if(triggerSlideEvent === true) {
+					this._trigger(&#x27;slide&#x27;, newValue);
+				}
+				if( (oldValue !== newValue) &#x26;&#x26; (triggerChangeEvent === true) ) {
+					this._trigger(&#x27;change&#x27;, {
+						oldValue: oldValue,
+						newValue: newValue
+					});
+				}
+				this._setDataVal(newValue);
+
+				return this;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.bootstrap_slider.prototype.toggle" id="apidoc.element.admin-lte.bootstrap_slider.prototype.toggle">
+        function <span class="apidocSignatureSpan">admin-lte.bootstrap_slider.prototype.</span>toggle
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toggle = function () {
+				if(this._state.enabled) {
+					this.disable();
+				} else {
+					this.enable();
+				}
+				return this;
+			}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  return this.each(function () {
+    var $this   = $(this)
+    var data    = $this.data(&#x27;bs.button&#x27;)
+    var options = typeof option == &#x27;object&#x27; &#x26;&#x26; option
+
+    if (!data) $this.data(&#x27;bs.button&#x27;, (data = new Button(this, options)))
+
+    if (option == &#x27;toggle&#x27;) data.<span class="apidocCodeKeywordSpan">toggle</span>()
+    else if (option) data.setState(option)
+  })
+}
+
+var old = $.fn.button
+
+$.fn.button             = Plugin
+...</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.admin-lte.moment" id="apidoc.module.admin-lte.moment">module admin-lte.moment</a></h1>
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.moment" id="apidoc.element.admin-lte.moment.moment">
+        function <span class="apidocSignatureSpan">admin-lte.</span>moment
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function utils_hooks__hooks() {
+    return hookCallback.apply(null, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.ISO_8601" id="apidoc.element.admin-lte.moment.ISO_8601">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>ISO_8601
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ISO_8601 = function () {}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.createFromInputFallback" id="apidoc.element.admin-lte.moment.createFromInputFallback">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>createFromInputFallback
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">createFromInputFallback = function () {
+    if (firstTime) {
+        warn(msgWithStack);
+        firstTime = false;
+    }
+    return fn.apply(this, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.defineLocale" id="apidoc.element.admin-lte.moment.defineLocale">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>defineLocale
+        <span class="apidocSignatureSpan">(name, values)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function defineLocale(name, values) {
+    if (values !== null) {
+        values.abbr = name;
+        if (!locales[name]) {
+            locales[name] = new Locale();
+        }
+        locales[name].set(values);
+
+        // backwards compat for now: also set the locale
+        locale_locales__getSetGlobalLocale(name);
+
+        return locales[name];
+    } else {
+        // useful for testing
+        delete locales[name];
+        return null;
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.duration" id="apidoc.element.admin-lte.moment.duration">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>duration
+        <span class="apidocSignatureSpan">(input, key)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function create__createDuration(input, key) {
+    var duration = input,
+        // matching against regexp is expensive, do it on demand
+        match = null,
+        sign,
+        ret,
+        diffRes;
+
+    if (isDuration(input)) {
+        duration = {
+            ms : input._milliseconds,
+            d  : input._days,
+            M  : input._months
+        };
+    } else if (typeof input === &#x27;number&#x27;) {
+        duration = {};
+        if (key) {
+            duration[key] = input;
+        } else {
+            duration.milliseconds = input;
+        }
+    } else if (!!(match = aspNetRegex.exec(input))) {
+        sign = (match[1] === &#x27;-&#x27;) ? -1 : 1;
+        duration = {
+            y  : 0,
+            d  : toInt(match[DATE])        * sign,
+            h  : toInt(match[HOUR])        * sign,
+            m  : toInt(match[MINUTE])      * sign,
+            s  : toInt(match[SECOND])      * sign,
+            ms : toInt(match[MILLISECOND]) * sign
+        };
+    } else if (!!(match = create__isoRegex.exec(input))) {
+        sign = (match[1] === &#x27;-&#x27;) ? -1 : 1;
+        duration = {
+            y : parseIso(match[2], sign),
+            M : parseIso(match[3], sign),
+            d : parseIso(match[4], sign),
+            h : parseIso(match[5], sign),
+            m : parseIso(match[6], sign),
+            s : parseIso(match[7], sign),
+            w : parseIso(match[8], sign)
+        };
+    } else if (duration == null) {// checks for null or undefined
+        duration = {};
+    } else if (typeof duration === &#x27;object&#x27; &#x26;&#x26; (&#x27;from&#x27; in duration || &#x27;to&#x27; in duration)) {
+        diffRes = momentsDifference(local__createLocal(duration.from), local__createLocal(duration.to));
+
+        duration = {};
+        duration.ms = diffRes.milliseconds;
+        duration.M = diffRes.months;
+    }
+
+    ret = new Duration(duration);
+
+    if (isDuration(input) &#x26;&#x26; hasOwnProp(input, &#x27;_locale&#x27;)) {
+        ret._locale = input._locale;
+    }
+
+    return ret;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.invalid" id="apidoc.element.admin-lte.moment.invalid">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>invalid
+        <span class="apidocSignatureSpan">(flags)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function valid__createInvalid(flags) {
+    var m = create_utc__createUTC(NaN);
+    if (flags != null) {
+        extend(getParsingFlags(m), flags);
+    }
+    else {
+        getParsingFlags(m).userInvalidated = true;
+    }
+
+    return m;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.isDate" id="apidoc.element.admin-lte.moment.isDate">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>isDate
+        <span class="apidocSignatureSpan">(input)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function isDate(input) {
+    return input instanceof Date || Object.prototype.toString.call(input) === &#x27;[object Date]&#x27;;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.isDuration" id="apidoc.element.admin-lte.moment.isDuration">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>isDuration
+        <span class="apidocSignatureSpan">(obj)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function isDuration(obj) {
+    return obj instanceof Duration;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.isMoment" id="apidoc.element.admin-lte.moment.isMoment">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>isMoment
+        <span class="apidocSignatureSpan">(obj)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function isMoment(obj) {
+    return obj instanceof Moment || (obj != null &#x26;&#x26; obj._isAMomentObject != null);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.lang" id="apidoc.element.admin-lte.moment.lang">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>lang
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">lang = function () {
+    if (firstTime) {
+        warn(msgWithStack);
+        firstTime = false;
+    }
+    return fn.apply(this, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.langData" id="apidoc.element.admin-lte.moment.langData">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>langData
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">langData = function () {
+    if (firstTime) {
+        warn(msgWithStack);
+        firstTime = false;
+    }
+    return fn.apply(this, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.locale" id="apidoc.element.admin-lte.moment.locale">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>locale
+        <span class="apidocSignatureSpan">(key, values)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function locale_locales__getSetGlobalLocale(key, values) {
+    var data;
+    if (key) {
+        if (typeof values === &#x27;undefined&#x27;) {
+            data = locale_locales__getLocale(key);
+        }
+        else {
+            data = defineLocale(key, values);
+        }
+
+        if (data) {
+            // moment.duration._locale = moment._locale = data;
+            globalLocale = data;
+        }
+    }
+
+    return globalLocale._abbr;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.localeData" id="apidoc.element.admin-lte.moment.localeData">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>localeData
+        <span class="apidocSignatureSpan">(key)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function locale_locales__getLocale(key) {
+    var locale;
+
+    if (key &#x26;&#x26; key._locale &#x26;&#x26; key._locale._abbr) {
+        key = key._locale._abbr;
+    }
+
+    if (!key) {
+        return globalLocale;
+    }
+
+    if (!isArray(key)) {
+        //short-circuit everything else
+        locale = loadLocale(key);
+        if (locale) {
+            return locale;
+        }
+        key = [key];
+    }
+
+    return chooseLocale(key);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.max" id="apidoc.element.admin-lte.moment.max">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>max
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function max() {
+    var args = [].slice.call(arguments, 0);
+
+    return pickBy(&#x27;isAfter&#x27;, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ScrollSpy.VERSION  = &#x27;3.3.7&#x27;
+
+ScrollSpy.DEFAULTS = {
+  offset: 10
+}
+
+ScrollSpy.prototype.getScrollHeight = function () {
+  return this.$scrollElement[0].scrollHeight || Math.<span class="apidocCodeKeywordSpan">max</span>(this.$body[0].scrollHeight,
+document.documentElement.scrollHeight)
+}
+
+ScrollSpy.prototype.refresh = function () {
+  var that          = this
+  var offsetMethod  = &#x27;offset&#x27;
+  var offsetBase    = 0
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.min" id="apidoc.element.admin-lte.moment.min">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>min
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function min() {
+    var args = [].slice.call(arguments, 0);
+
+    return pickBy(&#x27;isBefore&#x27;, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.months" id="apidoc.element.admin-lte.moment.months">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>months
+        <span class="apidocSignatureSpan">(format, index)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function lists__listMonths(format, index) {
+    return list(format, index, &#x27;months&#x27;, 12, &#x27;month&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.monthsShort" id="apidoc.element.admin-lte.moment.monthsShort">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>monthsShort
+        <span class="apidocSignatureSpan">(format, index)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function lists__listMonthsShort(format, index) {
+    return list(format, index, &#x27;monthsShort&#x27;, 12, &#x27;month&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.normalizeUnits" id="apidoc.element.admin-lte.moment.normalizeUnits">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>normalizeUnits
+        <span class="apidocSignatureSpan">(units)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function normalizeUnits(units) {
+    return typeof units === &#x27;string&#x27; ? aliases[units] || aliases[units.toLowerCase()] : undefined;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.parseTwoDigitYear" id="apidoc.element.admin-lte.moment.parseTwoDigitYear">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>parseTwoDigitYear
+        <span class="apidocSignatureSpan">(input)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">parseTwoDigitYear = function (input) {
+    return toInt(input) + (toInt(input) &#x3e; 68 ? 1900 : 2000);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.parseZone" id="apidoc.element.admin-lte.moment.parseZone">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>parseZone
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function moment__createInZone() {
+    return local__createLocal.apply(null, arguments).parseZone();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.relativeTimeThreshold" id="apidoc.element.admin-lte.moment.relativeTimeThreshold">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>relativeTimeThreshold
+        <span class="apidocSignatureSpan">(threshold, limit)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function duration_humanize__getSetRelativeTimeThreshold(threshold, limit) {
+    if (thresholds[threshold] === undefined) {
+        return false;
+    }
+    if (limit === undefined) {
+        return thresholds[threshold];
+    }
+    thresholds[threshold] = limit;
+    return true;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.unix" id="apidoc.element.admin-lte.moment.unix">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>unix
+        <span class="apidocSignatureSpan">(input)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function moment__createUnix(input) {
+    return local__createLocal(input * 1000);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.updateOffset" id="apidoc.element.admin-lte.moment.updateOffset">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>updateOffset
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">updateOffset = function () {}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.utc" id="apidoc.element.admin-lte.moment.utc">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>utc
+        <span class="apidocSignatureSpan">(input, format, locale, strict)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function create_utc__createUTC(input, format, locale, strict) {
+    return createLocalOrUTC(input, format, locale, strict, true).utc();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.weekdays" id="apidoc.element.admin-lte.moment.weekdays">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>weekdays
+        <span class="apidocSignatureSpan">(format, index)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function lists__listWeekdays(format, index) {
+    return list(format, index, &#x27;weekdays&#x27;, 7, &#x27;day&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.weekdaysMin" id="apidoc.element.admin-lte.moment.weekdaysMin">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>weekdaysMin
+        <span class="apidocSignatureSpan">(format, index)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function lists__listWeekdaysMin(format, index) {
+    return list(format, index, &#x27;weekdaysMin&#x27;, 7, &#x27;day&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.admin-lte.moment.weekdaysShort" id="apidoc.element.admin-lte.moment.weekdaysShort">
+        function <span class="apidocSignatureSpan">admin-lte.moment.</span>weekdaysShort
+        <span class="apidocSignatureSpan">(format, index)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function lists__listWeekdaysShort(format, index) {
+    return list(format, index, &#x27;weekdaysShort&#x27;, 7, &#x27;day&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
